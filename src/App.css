@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+body{
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+/************************** Progress Bar style **************************/
+.progress {
+  height: .6rem;
+  border-radius: 25.5px;
+}
+.progress-bar {
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+
+}
+/************************** Brand btn style **************************/
+.brand-btn {
+  color: #141471;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #141471;
+  border-radius: 5px;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 700;
+}
+.brand-btn:hover{
+  color:#fff;
+  background-color: #141471;
+}
+
+
+.container-brand {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+/******************** Incubator ********************/
+.incubator-bar {
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/************************** Home page **************************/
+.home-background{
+  background: linear-gradient(104.61deg, #ff00a3a1 2.65%, #ff655bab 51.83%, #ffc70091 100%);
+}
+
+
+.incubator-container {
+  background-color: white;
+  color: black;
+}
+
+/************************** Learn Page container style **************************/
+.learn-page-container{
+  background: #151371;
+  padding: 100px 0;
+}
+
+.learn-btn{
+  color: #fff;
+  padding: 8px 50px;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  font-style: normal;
+  font-weight: 700;
+}
+.course-card{
+  background-image:url('./images/card-bg.png');
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.title h2{
+  position: relative;
+}
+.title h2::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  background-color: #fff;
+  left: 183px;
+  top: 20px;
+}
+.learn-page-container .slick-next, .learn-page-container .slick-prev {
+  top: -27px!important;
+}
+.learn-page-container .slick-prev{
+  left: 88%!important;
+}
+.learn-page-container .slick-next {
+  right: 7%!important;
+}
+.f-title h2::after{
+  width: 60%;
+  left:24%;
+}
+
+.week-card{
+  background-image: url(./images/week-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.week-card a{
+  text-decoration: none;
+}
+.activity img{
+  height:150px;
+}
+
+/************************** Search Course Page container style **************************/
+.searchCourse-container{
+    background: #151371;
+  margin-bottom: 0px;
+}
+
+
+
+
+/**************************** CourseBanner.js ****************************/
+.course-banner {
+  padding: 60px 0;
+  color: white;
+}
+
+.course-banner .banner-content h2{
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+.course-banner .banner-content p{
+  font-size: 22px;
+}
+
+
+.banner-profile {
+  padding-left: 10%;
+}
+
+
+.banner-content {
+  padding-left: 10%;
+}
+
+
+.course-banner .banner-resume {
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+.banner-resume .button-resume {
+  background: #151371;
+  color: white;
+  font-weight: bold;
+  padding: 8px 50px;
+  border-radius: 12px;
+}
