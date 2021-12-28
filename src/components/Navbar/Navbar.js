@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../images/logo.png';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillFacebook } from 'react-icons/ai';
 import { IoLogoLinkedin } from 'react-icons/io';
