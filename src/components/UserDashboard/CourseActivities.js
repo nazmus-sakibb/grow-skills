@@ -10,7 +10,7 @@ const CourseActivities = () => {
     console.log(courseActivities);
 
     useEffect(() => {
-        const oneCourseItem = courseActivities.find(pd => pd.__id == __id);
+        const oneCourseItem = courseActivities.find(pd => pd.__id === __id);
         setSingleClass(oneCourseItem);
 
     }, [__id]);

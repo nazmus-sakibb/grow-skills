@@ -11,7 +11,7 @@ const CourseItems = () => {
     console.log(courseModules);
 
     useEffect(() => {
-        const oneCourseItem = courseModules.find(pd => pd._id == _id);
+        const oneCourseItem = courseModules.find(pd => pd._id === _id);
         setWeekClass(oneCourseItem);
 
     }, [_id]);

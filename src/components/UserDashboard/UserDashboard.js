@@ -12,7 +12,7 @@ const UserDashboard = () => {
 
 
     useEffect(() => {
-        const singleCourse = allcourses.find(pd => pd.id == id);
+        const singleCourse = allcourses.find(pd => pd.id === id);
         setCourses(singleCourse);
 
     }, [id]);
